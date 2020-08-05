@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+#header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+#div-logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#div-logo strong {
+  padding-left: 0.8rem;
+  font: 600 2.4rem Poppins;
+  color: var(--logo-title)
+}
+
+#nav-list a:nth-child(1) {
+  padding-left: 0;
+}
+
+#nav-list a {
+  text-decoration: none;
+  color: var(--text-title);
+  font: 500 1.7rem Poppins;
+  padding-left: 3.2rem;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+#nav-list a:hover {
+  opacity: 1;
+  /* font-weight: 500; */
+  color: var(--black);
+}

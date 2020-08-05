@@ -1,0 +1,61 @@
+#ponto-svg {
+  margin-top: 4.5rem;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+#left-content {
+  max-width: 38rem;
+}
+
+#left-content h2 {
+  font: 700 4.4rem Archivo;
+  line-height: 5.6rem;
+}
+
+#left-content span {
+  display: block;
+  font: 300 1.8rem Poppins;
+  color: var(--text-secundary);
+  line-height: 3rem;
+  padding-top: 2.2rem;
+  padding-bottom: 3.2rem;
+}
+
+#left-content button {
+  background: var(--color-primary);
+  outline: none;
+  border: none;
+  width: 20rem;
+  border-radius: 5rem;
+}
+
+#left-content a {
+  text-decoration: none;
+  font: 700 1.8rem Archivo;
+  color: var(--white);
+  line-height: 6rem;
+}
+
+#right-content img {
+  max-width: 60rem;
+  max-height: 60rem;
+}
+
+#full-primary-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+#full-primary-content>img {
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  opacity: 0.9;
+}
+
