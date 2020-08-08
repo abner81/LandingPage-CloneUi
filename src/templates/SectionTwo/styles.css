@@ -27,7 +27,7 @@
 }
 
 #top-content h3 {
-  font: 600 3.6rem Archivo;
+  font: 700 3.6rem Archivo;
 }
 
 #top-content img {
@@ -50,19 +50,25 @@
   margin-top: 4rem;
 }
 
-.button-a {
+#two-section-content .button-a {
   width: 20rem;
   border: 1.5px solid var(--color-primary);
   border-radius: 3rem;
+  background: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5rem auto 3rem auto;
 }
 
-.button-a a {
+#container-two-content .button-a a:hover {
+  color: red;
+}
+
+#two-section-content .button-a a {
   text-decoration: none;
   font: 700 1.8rem Archivo;
   line-height: 6rem;
-  color: var(--color-primary)
+  color: var(--color-primary);
+  cursor: pointer;
 }

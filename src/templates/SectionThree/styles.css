@@ -1,0 +1,67 @@
+#content-three-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  margin-top: 5rem;
+}
+
+#img-background {
+  object-fit: contain;
+  width: 58rem;
+}
+
+.right-content-three {
+  max-width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.right-content-three h3 {
+  font: 700 3.6rem Archivo;
+  line-height: 5.2rem;
+  padding-bottom: 2.4rem;
+}
+
+.right-content-three img {
+  padding-bottom: 3rem;
+}
+
+.right-content-three p {
+  font: 400 1.8rem Poppins;
+  line-height: 3rem;
+  color: var(--text-secundary);
+}
+
+.right-content-three .button-section-three {
+  width: 20rem;
+  border: 1.5px solid var(--color-primary);
+  border-radius: 3rem;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.right-content-three button:hover {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+
+.right-content-three button:hover a {
+  color: var(--white);
+}
+
+.right-content-three .button-section-three a {
+  text-decoration: none;
+  font: 700 1.8rem Archivo;
+  line-height: 6rem;
+  color: var(--color-primary);
+}
+ 

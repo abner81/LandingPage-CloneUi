@@ -1,8 +1,10 @@
 :root {
   font-size: 60%;
   --color-primary: #458FF6;
+  --color-primary-dark: #3570C1;
+  --color-white-dark: #F2F2F2;
   --text-title: #1F1534;
-  --text-secundary: #7D7987;
+  --text-secundary: #8E8B97;
   --white: #ffff;
   --black: #000000;
   --color-background: #ffff;

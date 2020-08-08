@@ -24,7 +24,7 @@
 }
 
 .card-wrapper p {
-  font: 300 1.3rem Poppins;
+  font: 400 1.3rem Poppins;
   line-height: 2.3rem;
   color: var(--text-secundary)
 }

@@ -19,7 +19,7 @@ export default function SectionTwo() {
     <div id="two-section-content">
       <img className="left-background" src={leftBackground} alt="" />
       <img className="right-background" src={pontoRight} alt="" />
-      <article className="container">
+      <article id='container-two-content' className="container">
         <div id="top-content">
           <h3>Our services</h3>
           <img src={imgBottom} alt="" />
@@ -66,9 +66,9 @@ export default function SectionTwo() {
           />
         </section>
 
-        <div className='button-a'>
+        <button type='text' className='button-a'>
           <a href='/'>Learn more</a>
-        </div>
+        </button>
       </article>
     </div>
   )
